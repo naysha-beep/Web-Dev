@@ -1,0 +1,263 @@
+/* Naysha Kamboj
+section f
+Lab assignment 2
+portfolio page css */
+
+
+.header{
+    display:flex;
+    flex-direction: row;
+    font-size: 50px;
+    background-color:#6BAED6 ;
+    position:static;
+    top:0px;
+    width:auto;
+    height:auto;
+    padding:20px;
+    margin:20px; 
+    color:white;
+    
+    
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    background-color:#6BAED6 ;
+    position:static;
+    top:0px;
+    width:auto;
+    height:auto;
+    padding:20px;
+    font-size:20px;
+    
+}
+
+.link{
+    color:antiquewhite;
+    text-decoration: none;
+    padding:5px;
+    box-sizing:border-box;
+    margin:10px;
+    transition: all 0.3s ease-in-out;
+}
+.link:hover{
+            transform: scale(1.05);
+        }
+main{
+    text-align: center;
+    font-family:'Lora' ;
+    background-color:rgb(255, 255, 255);
+}
+
+th{
+   background-color: #6BAED6; 
+   color:white;
+   
+}
+.tr{
+    background-color: #C6DBEF;
+    color:white;
+}
+table{
+    align-items: center;
+    border:2px  solid;
+    padding:5px;
+    margin:0 auto;
+    width:500px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+#button{
+    color:white;
+    background-color:blanchedalmond;
+    text-decoration: none;
+    cursor:pointer;
+    transition: all 0.3s ease-in-out;
+    width:5px;
+    border:solid black 1px;
+
+}
+#button:hover{
+    background-color:blanchedalmond;
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    text-decoration: none;
+}
+
+
+#b{
+    color:darkslategray;
+    background-color:beige;
+    text-decoration: none;
+    cursor:pointer;
+    transition: all 0.3s ease-in-out;
+    width:50px;
+    border:solid beige 1px;
+
+}
+#b:hover{
+    background-color:beige;
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+.aboutme{
+    display: grid;
+    background-color:aliceblue;
+    color:darkcyan;
+    padding:60px;
+    border:2px solid ;
+    margin:10px;
+   
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(3,1fr);
+}
+.fullstack{
+    font-size: 50px;
+    text-align:left ;
+    grid-area:1/1/2/2;
+}
+#img{
+    border:2px solid #6BAED6;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    grid-area:1/2/2/3;
+    height:200px;
+    width: 200px;
+    transition: all 0.3s ease-in-out;
+     
+}
+#img:hover{
+    transform: scale(1.05);
+
+}
+.h{
+    grid-area:2/1/3/4;
+    padding: 60px;
+    margin: 10px;
+    font-size: 30px;
+}
+.p{
+    text-align: center;
+    grid-area: 3/1/4/4;
+}
+
+
+
+
+
+
+.projects{
+    
+    color:darkgreen;
+    background-color: beige;
+    padding:60px;
+    border:2px solid ;
+    width:auto;
+    height:auto;
+    margin:10px;
+    transition: all 0.3s ease-in-out;
+}
+.projects:hover{
+    transform: scale(1.02);
+
+}
+
+
+
+
+
+
+.technicalskills{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,1fr);
+    color:azure;
+    background-color: rgb(179, 220, 220);
+    border:2px grey solid;
+    padding: 60px;
+    margin : 10px;
+    font-size:20px;
+}
+.box{
+    background-color:cadetblue;
+    transition: all 0.3s ease-in-out;
+    margin:10px
+}
+.box:hover{
+                transform: scale(1.05);
+            }
+.h2{
+    grid-area: 1/1/2/4;
+}
+
+
+
+
+
+
+
+
+
+.contact{
+    color:cadetblue;
+    background-color: azure;
+    padding:10px;
+    margin:10px;
+    border:solid 2px;
+}
+aside{
+    text-decoration: none;
+    color:white;
+    border:solid 2px gray;
+    padding:5px;
+    position:fixed;
+    bottom:0px;
+    right:0px;
+    background-color: darkcyan;
+}
+footer{
+    text-align: center;
+    
+}
+label{
+    color:darkgreen;
+    padding:5px;
+    margin:10px;
+}
+input{
+    padding:5px;
+    margin:10px;
+    background-color:cadetblue;
+
+}
+textarea{
+    background-color: rgb(211, 233, 233);
+}
+
+
+.d{
+    background-color: lightseagreen;
+    align-items: center;
+    font-size:1em;
+    text-align: center;
+    font-size: 20px;
+    color:darkgreen;
+
+}
+dt{
+    border: solid 2px gray;
+    padding:10px;
+    width:auto;
+    height:auto;
+    margin:10px;
+}
+
+

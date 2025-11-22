@@ -1,0 +1,185 @@
+<!-- Naysha Kamboj
+Section F 
+Project=Lab assignment 2
+Portfolio page -->
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <!-- this is for media queries -->
+
+    <link href="style3.css" rel="stylesheet">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+    <style>
+        @media(max-width:600px){
+            .header{
+                flex-direction: column;
+                background-color:cadetblue ;
+            }
+            .nav{
+                flex-direction: column;
+                background-color: cadetblue;
+            }
+            .aboutme{
+                display:flex;
+                flex-wrap: wrap;
+                background-color:azure;
+                text-align: center;
+            }
+            .technicalskills{
+                display: flex;
+                flex-wrap: wrap;
+                
+            }
+            textarea{
+                width: 50px;
+            }
+            input{
+                width: 50px;
+
+            }
+
+        }
+
+
+
+
+    /* For animation */
+
+        /* Hide the checkbox */
+    #trigger {
+      display: none;
+    }
+
+    /* Style the button (label acts as button) */
+    .l {
+      padding: 10px 20px;
+      font-size: 16px;
+      background: green;
+      color: white;
+      cursor: pointer;
+      border-radius: 5px;
+      grid-area: 3/1/4/3;
+    }
+
+    /* Message hidden initially */
+    .message {
+      opacity: 0;
+      transform: translateY(-20px);
+      transition: opacity 0.8s ease, transform 0.8s ease;
+      font-size: 18px;
+      color: green;
+      margin-top: 20px;
+    }
+
+    /* When checkbox is checked, show message */
+    #trigger:checked ~ .message {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+      
+    </style>
+</head>
+<body>
+    <!-- <header class="header" id="top">
+        <H1 >Naysha Kamboj</H1>
+        <a class="link" href="#About">About</a>
+        <a class="link" href="#Projects">Projects</a>
+        <a class="link" href="#Contact">Contact</a> -->
+        
+        
+    <!-- </header><hr> -->
+    <div class="header" id="top">
+      <div>My Portfolio</div>
+      <div class="nav">
+      <div><a class="link"  href="#About">About</a></div>
+      <div><a class="link"  href="#Skills">Skills</a></div>
+      <div><a class="link" href="#Projects">Projects</a></div>
+      <div><a class="link"  href="#Contact">Contact</a></div>
+      </div>
+    </div>
+
+
+
+    <main>
+        <section class="aboutme">
+            <h2 class="fullstack">Hi!I am a Full Stack Developer</h2><br>
+
+            
+            <img about="profile picture" id="img" src="./profile.avif" alt="My profile picture"><br>
+            <h2 id="About" class="h">About Me</h2><br>
+            <p class="p">I’m a dedicated Full‑Stack Developer who thrives on building end‑to‑end solutions that
+                balance performance, scalability, and user experience. With a strong foundation in both frontend and
+                backend technologies, I enjoy architecting systems that not onlysolve problems but also empower people.
+                My approach blends clean code practices, creative design thinking, and a commitment to continuous learning.
+                Whether it’s optimizing a database query, designing a responsive interface, or deploying applications to 
+                the cloud,I bring a holistic mindset to every project.
+
+
+            </p><br>
+        </section><hr>
+        
+        <section id="Skills" class="technicalskills">
+            <h2 class="h2">My Skills</h2>
+            
+            <div class="box">HTML<div style="font-size: 10px;">Beginner</div></div>
+            <div class="box">CSS<div style="font-size: 10px;">Beginner</div></div>
+            <div class="box">JavaScript<div style="font-size: 10px;">Learning</div></div>
+
+        </section><hr>
+
+
+
+          <section class="projects">
+            <h2 id="Projects">My Projects</h2>
+        
+                <dl>
+                    <dt>Forms:
+                        <dd>a webpage page which allows user to submit their information or views</dt>
+                    </dt>
+                    <dt>Portfolio Website:
+                        <dd>A personal webpage showcasing my bio, skills and project</dt>
+                    </dt>
+                    <dt>Table Trackdown:
+                        <dd>a web page designed to track your daily habits</dt>
+                    </dt>
+                </dl>
+        </section><br><hr>
+    
+
+    </main>
+    
+    <footer class="contact">
+        <h2 id="Contact" style="font-size: 2em;">Contact Me</h2><br>
+            <forms>
+                <label for="name">Name:</label>
+                <input type="text" id="name"><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email"><br>
+                <label for="textbox">Message:</label><br>
+                <textarea id="textbox" rows="4" cols="50" placeholder="Write a messagae here"></textarea><br>
+               
+                <input type="checkbox" id="trigger" class="l">
+
+                <!-- Label acts as button -->
+                <label for="trigger" class="l">Send</label>
+
+                <!-- Confirmation message -->
+                <div class="message">✅ Message Sent!</div>
+            </forms>
+            
+    </footer>
+    <div class="d">Copyrights.All rights reserved 2025</div>
+    <aside id="button">
+        <a href="#top" text-decoration: none>^</a>
+    </aside>
+   
+
+</body>
+</html>
